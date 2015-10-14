@@ -34,7 +34,7 @@
 #include "log.h"
 #include "util.h"
 
-void gsm_properties(char default_network[])
+void gsm_properties(char const default_network[])
 {
     property_set("ro.telephony.default_network", default_network);
     property_set("ro.ril.hsupa.category", "6");

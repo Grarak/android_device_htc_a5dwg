@@ -42,7 +42,7 @@ BOARD_RIL_CLASS := ../../../device/htc/a5dwg/ril
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/htc/a5dwg/init/init_a5dwg.c
+TARGET_LIBINIT_DEFINES_FILE := device/htc/a5dwg/init/init_a5dwg.cpp
 
 # Inherit from the proprietary version
 -include vendor/htc/a5dwg/BoardConfigVendor.mk
