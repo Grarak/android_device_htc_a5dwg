@@ -4,9 +4,8 @@ import android.content.Context;
 
 public class a5dualsimRIL extends RIL implements CommandsInterface {
 
-    public a5dualsimRIL(Context context, int networkMode, int cdmaSubscription) {
-        super(context, networkMode, cdmaSubscription, null);
-        mQANElements = 5;
+    public a5dualsimRIL(Context context, int preferredNetworkType, int cdmaSubscription) {
+        this(context, preferredNetworkType, cdmaSubscription, null);
     }
 
     public a5dualsimRIL(Context context, int preferredNetworkType,
