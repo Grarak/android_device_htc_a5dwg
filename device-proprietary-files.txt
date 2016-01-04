@@ -23,6 +23,7 @@ vendor/lib/libqmiservices_ext.so
 vendor/lib/libqmi.so
 
 # Radio
+-lib/libril.so
 vendor/lib/libnetmgr.so
 vendor/lib/libril-qc-qmi-1.so
 vendor/lib/libril-qcril-hook-oem.so
