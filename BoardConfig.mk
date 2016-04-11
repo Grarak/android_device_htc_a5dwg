@@ -36,16 +36,12 @@ TARGET_OTA_ASSERT_DEVICE := htc_a5,htc_a5dwg,htc_a5dug,a5,a5dwg,a5dug
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_HTC_DUAL_SIM := true
 
-# Includes
-TARGET_SPECIFIC_HEADER_PATH += device/htc/a5dwg/include
-
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_RIL_CLASS := ../../../device/htc/a5dwg/ril
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/htc/a5dwg/init/init_a5dwg.cpp
 
 # Inherit from the proprietary version
